@@ -27,5 +27,6 @@ public class Main {
             }
         } while (!input.equalsIgnoreCase("sair"));
         System.out.println("Programa finalizado.");
+        scanner.close();
     }
 }
